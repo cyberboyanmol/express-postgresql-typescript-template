@@ -28,7 +28,6 @@ export class App {
     this.port = this.config.server.port;
     this.initializeMiddleware();
     this.initializeRoutes(routes);
-
     this.initializeRouteFallback();
     this.initializeErrorHandling();
     this.disableSettings();

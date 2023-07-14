@@ -4,7 +4,6 @@ import path from 'path';
 import { Payload } from '@/utils';
 import { getConfig } from '@/config';
 
-
 const privateRefreshKeyPath = path.resolve(__dirname, '..', '..', 'keys', 'refreshToken', 'private.key');
 
 export const setRefreshToken = async (payload: Payload): Promise<string> => {
